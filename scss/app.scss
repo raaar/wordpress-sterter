@@ -1,5 +1,11 @@
 @import "settings";
 @import "foundation";
+@import "../bower_components/fontawesome/css/font-awesome.css";
+
+@import "style";
+@import "base";
+@import "layouts";
+@import "modules";
 
 
 header {
@@ -27,5 +33,5 @@ header {
     //   @include grid-column($columns:8, $offset: 1);
     // }
   }
-
 }
+

@@ -79,7 +79,7 @@ module.exports = function(grunt) {
         tasks: ['svg2png']
       },
       livereload: {
-        files: ['*.html', '!<%= app %>/bower_components/**', '<%= app %>/js/**/*.js', '<%= app %>/css/**/*.css', '<%= app %>/images/**/*.{jpg,gif,svg,jpeg,png}'],
+        files: ['*.php', '*.html', '!<%= app %>/bower_components/**', '<%= app %>/js/**/*.js', '<%= app %>/css/**/*.css', '<%= app %>/images/**/*.{jpg,gif,svg,jpeg,png}'],
         options: {
           livereload: true
         }
